@@ -1,5 +1,4 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
 import Nav from './nav';
 
 export default function RootLayout({
@@ -9,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className='mx-4 md:mx-48 xl:mx-96 bg-orange-600'>
         <Nav/>
         {children}
       </body>
